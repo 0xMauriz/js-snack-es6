@@ -37,7 +37,7 @@ const bicicletta = [
 
 ];
 
-let minorWeigth;
+let minorWeigth = parseInt(bicicletta[0].peso);
 let pesoBici;
 
 // console.log(bicicletta[0].peso);
@@ -45,35 +45,13 @@ let pesoBici;
 
 // console.log(bicicletta[1].peso);
 
-console.log(bicicletta.length);
+//console.log(bicicletta.length);
 
+for (let i = 1; i < bicicletta.length; i++) {
+    let pesoBici = parseInt(bicicletta[i].peso);
 
-
-for (let i = 0; i < bicicletta.length; i++) {
-
-
-    pesoBici = parseInt(bicicletta[i].peso);
-
-    console.log(pesoBici);
-    
-
-    for (let y = 1; y < bicicletta.length; y++) {
-
-        let pesoBiciCompare = parseInt(bicicletta[y].peso);
-        
-    console.log(pesoBiciCompare);
-
-        if (pesoBici < pesoBiciCompare) {
-
-            minorWeigth = pesoBici;
-
-        }
-
-        else if (pesoBici > pesoBiciCompare) {
-            minorWeigth = pesoBiciCompare;
-        }
-
-
+    if (pesoBici < minorWeigth) {
+        minorWeigth = pesoBici;
     }
 }
 
