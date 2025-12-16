@@ -40,10 +40,10 @@ const bicicletta = [
 let minorWeigth = parseInt(bicicletta[0].peso);
 let pesoBici;
 
-// console.log(bicicletta[0].peso);
+//console.log(bicicletta[0].peso);
 //console.log(bicicletta[1].peso);
 
-// console.log(bicicletta[1].peso);
+//console.log(bicicletta[1].peso);
 
 //console.log(bicicletta.length);
 
