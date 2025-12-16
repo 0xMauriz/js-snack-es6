@@ -1,4 +1,4 @@
-const bicicletta = [
+const squadreDiCalcio = [
     {
         'nomeSquadra': 'Manchester United',
         'puntiFatti': 0,
@@ -37,3 +37,13 @@ const bicicletta = [
     },
 
 ];
+
+for (let i = 0; i < squadreDiCalcio.length; i++) {
+
+    
+    squadreDiCalcio[i].puntiFatti = inrangeRandomNumberGenerator(0,20);
+
+    
+    squadreDiCalcio[i].falliSubiti = inrangeRandomNumberGenerator(0,20);
+
+}
